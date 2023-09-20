@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  background-color: #fae8ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  align-self: flex-start;
+  /* height: 620px; */
+  padding: 24px 32px;
+}
+
+.title {
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.birthdays-img {
+  border-radius: 50%;
+}
+
+.birthdays {
+}
+.birthdays-item {
+  margin-bottom: 15px;
+  display: flex;
+}
+.birthdays-img {
+  margin-right: 12px;
+  object-fit: cover;
+  width: 75px;
+  height: 75px;
+  flex-shrink: 0;
+}
+.birthdays-item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.info-wrapper {
+}
+.info-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.info-age {
+  color: #64748b;
+}
+.delete-btn {
+  background-color: #d946ef;
+  border: 0;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  opacity: 0.8;
+}
+
+.clear-all {
+  margin-top: 20px;
+  background-color: #d946ef;
+  border: 0;
+  padding: 10px 240px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500px;
+  cursor: pointer;
+}
+
+.clear-all:hover {
+  opacity: 0.8;
+}
